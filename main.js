@@ -50,7 +50,7 @@ function gotResult(error, results) {
             document.getElementById("result_object_gesture_icon").innerHTML = "Heart Hands";
         }
         else if (gesture == "Crossed Fingers") {
-            toSpeak = ""Crossed";
+            toSpeak = "Crossed";
             document.getElementById("result_object_gesture_icon").innerHTML = "Crossed Fingers";
         }
         else if (gesture == "Thumbs Up") {
